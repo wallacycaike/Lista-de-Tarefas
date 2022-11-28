@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/97248c65c4.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Lista de Tarefas</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="content-heading">
+        <div class="task-input">
+          <input
+            type="text"
+            name="task"
+            id="task"
+            spellcheck="false"
+            required
+          />
+          <label for="task">Adicionar nova tarefa</label>
+        </div>
+        <div class="buttons">
+          <div class="filter-buttons">
+            <button id="all" class="active">Todas</button>
+            <button id="pending" class="">Pendentes</button>
+            <button id="completed" class="">Completas</button>
+          </div>
+          <button class="clear-button">Limpar Tudo</button>
+        </div>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+    <footer class="footer">
+      <div class="footer-info">
+        <span class="me-4 copyW">Feito por Wachiles &copy; 2022</span>
+        <a
+          href="https://www.instagram.com/caikematoos/?hl=pt-br"
+          target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://github.com/wallacycaike" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://twitter.com" target="_blank"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+      </div>
+    </footer>
+    <script src="/js/index.js"></script>
+  </body>
+</html>
